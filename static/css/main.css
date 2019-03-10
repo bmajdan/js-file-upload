@@ -1,0 +1,50 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.drop-area {
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.drop-area__upload{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.drop-area__image{
+  width: 5%;
+}
+
+.drop-area__text{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.gallery__header{
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.drop-area__gallery{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 50%;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.drop-area__gallery img{
+  width: calc(100% / 3);
+}

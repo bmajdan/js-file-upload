@@ -1,0 +1,3 @@
+/node_modules/*
+/static/photos/*
+package-lock.json
